@@ -2,10 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #444444;
 }
 
+
+body {
+    margin: 0px;
+ }
+
 .nav-logo {
+    margin-left: 10px;
     width: 60px;
+    height: 60px;
 }
 
 .nav-items {
@@ -14,5 +22,12 @@
 }
 
 .nav-items > li {
+    color: #ccc;
+    padding: 10px;
+}
+
+.nav-items > li > a:link {
+    color: #ccc;
+    text-decoration: none;
     padding: 10px;
 }
